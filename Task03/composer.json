@@ -1,0 +1,25 @@
+{
+  "name": "modrakir/cold-hot-game",
+  "description": "Console implementation of Cold-Hot game",
+  "type": "project",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "wp-cli/php-cli-tools": "^0.12"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "ColdHot\\": "src/"
+    }
+  },
+  "bin": ["bin/cold-hot"],
+  "authors": [
+    {
+      "name": "modrakir",
+      "email": "maponom@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use ColdHot\ConsoleApplication;
+
+try {
+    $application = new ConsoleApplication();
+    $application->run($argv);
+} catch (Exception $e) {
+    echo "Критическая ошибка: " . $e->getMessage() . "\n";
+    exit(1);
+}
