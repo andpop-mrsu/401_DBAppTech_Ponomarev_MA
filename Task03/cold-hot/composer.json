@@ -14,7 +14,9 @@
       "ColdHot\\": "src/"
     }
   },
-  "bin": ["bin/cold-hot"],
+  "bin": [
+    "cold-hot/bin/cold-hot"
+  ],
   "authors": [
     {
       "name": "modrakir",

@@ -14,7 +14,13 @@
     <include_path>
       <path value="$PROJECT_DIR$/Task02/vendor/wp-cli/php-cli-tools" />
       <path value="$PROJECT_DIR$/Task02/vendor/composer" />
+      <path value="$PROJECT_DIR$/Task03/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/Task03/vendor/wp-cli/php-cli-tools" />
+      <path value="$PROJECT_DIR$/Task03/vendor/composer" />
     </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />

@@ -98,4 +98,4 @@
 - [Composer Documentation](https://getcomposer.org/doc/)
 
 ## Ссылки на пакеты
-- [Packagist пакет Cold-Hot Game](https://packagist.org/packages/Modrakir/cold-hot-game)
+- [Packagist пакет Cold-Hot Game](https://packagist.org/packages/modrakir/cold-hot-game)

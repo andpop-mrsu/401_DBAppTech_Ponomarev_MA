@@ -3,8 +3,12 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Task02/src" isTestSource="false" packagePrefix="Modrakir\Minesweeper\" />
+      <sourceFolder url="file://$MODULE_DIR$/Task03/src" isTestSource="false" packagePrefix="ColdHot\" />
       <excludeFolder url="file://$MODULE_DIR$/Task02/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/Task02/vendor/wp-cli/php-cli-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/Task03/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Task03/vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/Task03/vendor/wp-cli/php-cli-tools" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
