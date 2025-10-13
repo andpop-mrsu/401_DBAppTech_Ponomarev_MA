@@ -1,4 +1,4 @@
-# Проект "Холодно-Горячо" (Cold-Hot)
+c# Проект "Холодно-Горячо" (Cold-Hot)
 
 ## Описание проекта
 
@@ -91,4 +91,4 @@
 - [PHP Documentation](https://www.php.net/docs.php)
 - [Composer Documentation](https://getcomposer.org/doc/)
 ## Ссылки на пакеты
-- [Packagist пакет Cold-Hot Game](https://packagist.org/packages/modrakir/cold-hot-game) 
+- [Packagist пакет Cold-Hot Game](https://packagist.org/pacages/modrakir/cold-hot-game)
