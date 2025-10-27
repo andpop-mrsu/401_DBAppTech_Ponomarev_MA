@@ -1,7 +1,8 @@
 {
   "name": "modrakir/cold-hot",
   "require": {
-    "wp-cli/php-cli-tools": "^0.12.5"
+    "wp-cli/php-cli-tools": "^0.12.5",
+    "gabordemooij/redbean": "^5.7"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^4.0"
