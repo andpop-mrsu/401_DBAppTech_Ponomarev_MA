@@ -8,9 +8,7 @@ class GameController {
         this.initialize();
     }
 
-    async initialize() {
-        await this.model.init();
-
+    initialize() {
         // Устанавливаем обработчики событий
         this.view.onStartGame = (playerName) => this.startNewGame(playerName);
         this.view.onMakeGuess = (guess) => this.makeGuess(guess);
@@ -25,28 +23,28 @@ class GameController {
 
     async makeGuess(guess) {
         if (!this.isGameActive) return;
-
         const result = this.model.makeGuess(guess);
-
         if (result.error) {
             this.view.showError(result.error);
             return;
         }
 
         const attempts = this.model.getAttempts();
-
-        // Сразу обновляем состояние игры
         this.view.updateGameState(attempts);
 
+        let outcome = 'in_progress';
         if (result.won) {
             this.isGameActive = false;
-            // Показываем модальное окно победы
+            outcome = 'won';
             this.view.showWin(attempts.length, this.model.getSecretNumber());
         } else if (attempts.length >= this.maxAttempts) {
             this.isGameActive = false;
-            // Показываем модальное окно поражения
+            outcome = 'lost';
             this.view.showLoss(attempts.length, this.model.getSecretNumber());
         }
+
+        // Сохраняем ход на сервере
+        await this.model.saveStep(outcome);
     }
 
     async getAllGames() {
